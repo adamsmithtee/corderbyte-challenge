@@ -49,12 +49,13 @@ Route::group(['middleware' => 'api'], function ($router) {
 				'message' => 'Access to this item is only for authenticated user. Provide a token in your request!'
 			]);
 		});
+        Route::group(['prefix' => 'user'], function() {
+            Route::post('/product/request', 'ProductRequestController@storeProductRequest')->name('user.product.request');
+            Route::get('/product/result/{slug}', 'UserDashboardController@viewResultOfProduct');
+            Route::get('/product', 'UserDashboardController@viewAllProductsResult');
+            Route::get('/product/thumb/{slug}', 'UserDashboardController@sendThumbnail');
+            Route::post('/approve/thumb/{slug}', 'UserDashboardController@approveThumbnail');
+        });
     });
-    Route::group(['prefix' => 'user'], function() {
-        Route::post('/product/request', 'ProductRequestController@storeProductRequest');
-        Route::get('/product/result/{slug}', 'UserDashboardController@viewResultOfProduct');
-        Route::get('/product', 'UserDashboardController@viewAllProductsResult');
-        Route::get('/product/thumb/{slug}', 'UserDashboardController@sendThumbnail');
-        Route::post('/approve/thumb/{slug}', 'UserDashboardController@approveThumbnail');
-    });
+
 });

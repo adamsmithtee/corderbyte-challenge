@@ -20,9 +20,11 @@ class RegisterControllerTest extends TestCase
 	public function testRegistrationUser()
 	{
 		$data = [
-			'name'  => 'tony',
-			'email' => 'tony_admin@laravel.it',
-			'password' => 'secret123'
+			'full_name'  => 'tony',
+            'username' => 'tony',
+			'email' => 'admin@laravel.com',
+			'password' => 'secret123',
+            'role_id' => 1
 		];
 
 		$response = $this->json('POST', route('api.auth.register'), $data)->assertJson([

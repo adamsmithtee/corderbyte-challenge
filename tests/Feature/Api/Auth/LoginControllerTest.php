@@ -19,7 +19,7 @@ class LoginControllerTest extends TestCase
 	protected function setUp(): void
 	{
 		parent::setUp();
-		
+
         $mock = new MockHandler([new Response(200, [])]);
 		$handler = HandlerStack::create($mock);
 		$this->client = new Client(['handler' => $handler]);
@@ -29,7 +29,7 @@ class LoginControllerTest extends TestCase
     {
         $response = $this->client->post(route('api.auth.login'), [
             'json' => [
-                'email' => 'tony_admin@example.com',
+                'email' => 'admin@example.com',
                 'password' => 'secret123',
             ]
         ]);

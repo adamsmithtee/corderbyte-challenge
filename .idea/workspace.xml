@@ -1,7 +1,56 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="4bc3daff-2e75-4343-91dd-54a9ba157989" name="Default" comment="" />
+    <list default="true" id="4bc3daff-2e75-4343-91dd-54a9ba157989" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_requests/16244483978145.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_requests/16244554442238.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_requests/16244554605199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_requests/16244555227062.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_requests/16244563335249.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244487538232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244494149168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244494575112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244494699167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244495694228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244496361199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244498065210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244553785589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244554246512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244555498652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244555944347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244704098681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244705788709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244740599080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244755301175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244758927307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244759571200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/16244764459855.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244487538232.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244494149168.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244494575112.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244494699167.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244495694228.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244496361199.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244498065210.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244553785589.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244554246512.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244555498652.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244555944347.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244704098681.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244705788709.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244740599080.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244755301175.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244758927307.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244759571200.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/upload/product_results/thumbnail_16244764459855.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/products/pexels-anna-nekrashevich-6802044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/uploads/products/thumb_pexels-anna-nekrashevich-6802044.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/api.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/api.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Api/Auth/LoginControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Api/Auth/LoginControllerTest.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/Feature/Api/Auth/RegisterControllerTest.php" beforeDir="false" afterPath="$PROJECT_DIR$/tests/Feature/Api/Auth/RegisterControllerTest.php" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +76,9 @@
     </option>
     <expand />
     <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -141,6 +193,7 @@
     </include_path>
   </component>
   <component name="ProjectId" id="1uDzU8F8uhaBRaSf4RHrQ6FTOCB" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="HbShouldOpenHtmlAsHb" value="" />
     <property name="SearchEverywhereHistoryKey" value="user&#9;FILE&#9;file:///var/www/html/laravel-api-boilerplate-jwt-master- (use)/app/Http/Controllers/Api/Auth/UserController.php&#10;reg&#9;null&#9;null&#10;userco&#9;null&#9;null&#10;login&#9;FILE&#9;file:///var/www/html/laravel-api-boilerplate-jwt-master- (use)/app/Http/Controllers/Api/Auth/LoginController.php&#10;env&#9;FILE&#9;file:///var/www/html/laravel-api-boilerplate-jwt-master/.env&#10;api&#9;FILE&#9;file:///var/www/html/laravel-api-boilerplate-jwt-master/routes/api.php&#10;cha&#9;null&#9;null&#10;forgot&#9;FILE&#9;file:///var/www/html/laravel-api-boilerplate-jwt-master/app/Http/Controllers/Api/Auth/ForgotPasswordController.php&#10;forg&#9;null&#9;null" />
@@ -151,6 +204,7 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/tests/Feature/Api" />
       <recent name="$PROJECT_DIR$/app/Http/Controllers/Api" />
     </key>
   </component>
@@ -191,11 +245,22 @@
       <workItem from="1617383823490" duration="3051000" />
       <workItem from="1624214962773" duration="261000" />
       <workItem from="1624215313758" duration="6778000" />
-      <workItem from="1624277690944" duration="71041000" />
+      <workItem from="1624277690944" duration="87745000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
 </project>

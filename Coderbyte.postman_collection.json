@@ -1,0 +1,364 @@
+{
+	"info": {
+		"_postman_id": "a3781de2-48d0-414a-a4e1-0f9be5400866",
+		"name": "Coderbyte",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Auth",
+			"item": [
+				{
+					"name": "Login",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"email\":\"jame@example.com\",\n    \"password\":\"password\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/login",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"login"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "register",
+					"request": {
+						"method": "POST",
+						"header": [],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n    \"full_name\": \"nime\",\n    \"username\":\"nime123\",\n    \"email\": \"nime@example.com\",\n    \"password\": \"password\",\n    \"role_id\": \"3\"\n}",
+							"options": {
+								"raw": {
+									"language": "json"
+								}
+							}
+						},
+						"url": {
+							"raw": "{{APIURL}}/auth/register",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "me",
+					"request": {
+						"method": "GET",
+						"header": [
+							{
+								"key": "Authorization",
+								"value": "Bearer {{token}}",
+								"type": "text"
+							}
+						],
+						"url": {
+							"raw": "{{APIURL}}/me",
+							"host": [
+								"{{APIURL}}"
+							],
+							"path": [
+								"me"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "hello",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{APIURL}}/hello",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"hello"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product request",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "image1 product",
+							"type": "text"
+						},
+						{
+							"key": "description",
+							"value": "uuedef f yddu ghucsdhdcc sddhddgdd",
+							"type": "text"
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/adamsmith/Downloads/cool_images/adam-borkowski-igRXeLr7PDU-unsplash.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{APIURL}}/user/product/request",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"user",
+						"product",
+						"request"
+					],
+					"query": [
+						{
+							"key": "",
+							"value": null,
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "product by user",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": null
+			},
+			"response": []
+		},
+		{
+			"name": "product result",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "title",
+							"value": "image",
+							"type": "text"
+						},
+						{
+							"key": "product_request_id",
+							"value": "1",
+							"type": "text"
+						},
+						{
+							"key": "created_by",
+							"value": "3",
+							"type": "text"
+						},
+						{
+							"key": "image_thumbnail",
+							"type": "file",
+							"src": [],
+							"disabled": true
+						},
+						{
+							"key": "image",
+							"type": "file",
+							"src": "/home/adamsmith/Downloads/cool_images/eugene-mykulyak-OD5kAb8nDHw-unsplash.jpg"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{APIURL}}/product/result",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"product",
+						"result"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view product result",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{APIURL}}/user/product/result/image1-product",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"user",
+						"product",
+						"result",
+						"image1-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view a product result thumb",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{APIURL}}/user/product/thumb/image1-product",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"user",
+						"product",
+						"thumb",
+						"image1-product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "view all product result of a user",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"url": {
+					"raw": "{{APIURL}}/user/product",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"user",
+						"product"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "approve thumbnail",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "Bearer {{token}}",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"approve\": \"1\"\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{APIURL}}/user/approve/thumb/image1-product",
+					"host": [
+						"{{APIURL}}"
+					],
+					"path": [
+						"user",
+						"approve",
+						"thumb",
+						"image1-product"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"event": [
+		{
+			"listen": "prerequest",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		},
+		{
+			"listen": "test",
+			"script": {
+				"type": "text/javascript",
+				"exec": [
+					""
+				]
+			}
+		}
+	],
+	"variable": [
+		{
+			"key": "APIURL",
+			"value": "http://localhost:9000/api"
+		},
+		{
+			"key": "token",
+			"value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJodHRwOlwvXC9sb2NhbGhvc3Q6OTAwMFwvYXBpXC9hdXRoXC9sb2dpbiIsImlhdCI6MTYyNDI4NTI4MiwiZXhwIjoxNjI0Mjg4ODgyLCJuYmYiOjE2MjQyODUyODIsImp0aSI6Ik5OcjlDZlpCbkdGMk0yRVAiLCJzdWIiOjEsInBydiI6IjIzYmQ1Yzg5NDlmNjAwYWRiMzllNzAxYzQwMDg3MmRiN2E1OTc2ZjcifQ.ilZZY_uIsh9pi110h4tx3bxVtxMYNt1Cmg9D2q8il2w"
+		}
+	]
+}
